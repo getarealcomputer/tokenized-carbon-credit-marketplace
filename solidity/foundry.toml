@@ -1,0 +1,5 @@
+[profile.default]
+src = 'src'
+test = 'test/forge'
+out = 'out/forge'
+libs = ['lib', 'node_modules']
