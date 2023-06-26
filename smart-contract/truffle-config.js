@@ -33,6 +33,11 @@ module.exports = {
       network_id: '*',
       skipDryRun: true,
       gasPrice: 5000000000
+    },
+    geth: {
+      host: '127.0.0.1',
+      port: 9100,
+      network_id: '1337',
     }
   },
   compilers: {
